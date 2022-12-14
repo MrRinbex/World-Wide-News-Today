@@ -2,6 +2,7 @@ import { Bars3Icon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import logo from "../public/logo.png";
 import NavLinks from "./NavLinks";
+import SearchBar from "./SearchBar";
 
 const Header = () => {
   return (
@@ -30,6 +31,7 @@ const Header = () => {
       {/*nav links*/}
       <NavLinks />
       {/*search bar*/}
+      <SearchBar />
     </header>
   );
 };

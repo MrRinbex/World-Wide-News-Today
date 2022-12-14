@@ -1,4 +1,4 @@
-"use Client";
+"use client";
 import { categories } from "../constants";
 import NavLink from "./NavLink";
 import { usePathname } from "next/navigation";

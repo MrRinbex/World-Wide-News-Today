@@ -1,21 +1,18 @@
-import '../styles/globals.css'
-import Header from './Header'
-
+import "../styles/globals.css";
+import Header from "./Header";
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html>
       <head />
-      <body>
+      <body className="bg-zinc-900 dark:bg-gray-100 transition-all duration-800">
         <Header />
-        <div>
-        {children}
-        </div>
-        </body>
+        <div className="max-w-6xl mx-auto">{children}</div>
+      </body>
     </html>
-  )
+  );
 }
