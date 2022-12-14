@@ -27,10 +27,7 @@ const Header = () => {
           </a>
         </div>
       </div>
-
-      {/*nav links*/}
       <NavLinks />
-      {/*search bar*/}
       <SearchBar />
     </header>
   );
