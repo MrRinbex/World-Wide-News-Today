@@ -11,7 +11,7 @@ const SearchBar = () => {
     // secure if there is no input just return
     if (!input) return;
     // else redirect to & with the input value
-    router.push(`/search/${input}`);
+    router.push(`/search?term=${input}`);
   };
   return (
     <form
