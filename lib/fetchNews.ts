@@ -76,4 +76,3 @@ const fetchNews =async (
 
 export default fetchNews;
 
-// stepzen import curl http://api.mediastack.com/v1/news?access_key=541bce073def36fe580bce9dcd0e866f&source=business,sports
