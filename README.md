@@ -15,6 +15,8 @@ Package & Framework using :
 - React
 - Dark Mode
 
+The API is limited by 500 requests monthly
+
 ## Available Scripts
 
 In the project directory, you can run:
